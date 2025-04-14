@@ -2,7 +2,7 @@
 
 This project is a **from-scratch Java implementation** of core cryptographic primitives: **RSA encryption and signing**, **AES-128 symmetric encryption**, and **SHA-256 hashing**, adhering closely to the specifications in [RFC 8017](https://datatracker.ietf.org/doc/html/rfc8017), [NIST FIPS 197](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf), and [NIST FIPS 180-4](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf).
 
-## 🧠 Features
+## Features
 
 - **RSA (2048-bit keys)**: Key generation, encryption/decryption, and digital signature support using `BigInteger` math.
 - **AES-128**: Fully manual implementation of symmetric encryption—**no hardware acceleration** or library shortcuts.
@@ -12,11 +12,11 @@ This project is a **from-scratch Java implementation** of core cryptographic pri
 
 ## 🧱 Project Structure
 
-KeyGen/        # RSA key generation and SHA-256 hashing
-Sender/        # AES/RSA encryption and signing
-Receiver/      # Decryption and signature verification
-tester.sh      # Script to automate message sending/receiving
-README.md      # This file
+- KeyGen/        # RSA key generation and SHA-256 hashing
+- Sender/        # AES/RSA encryption and signing
+- Receiver/      # Decryption and signature verification
+- tester.sh      # Script to automate message sending/receiving
+- README.md      # This file
 
 ## 🔍 File Highlights
 
