@@ -10,15 +10,7 @@ This project is a **from-scratch Java implementation** of core cryptographic pri
 - **Sender/Receiver model**: Demonstrates secure communication using combined encryption/signing.
 - **Shell Scripts**: For automated message testing (`tester.sh`, `nc_tester.sh`).
 
-## 🧱 Project Structure
-
-- KeyGen/        # RSA key generation and SHA-256 hashing
-- Sender/        # AES/RSA encryption and signing
-- Receiver/      # Decryption and signature verification
-- tester.sh      # Script to automate message sending/receiving
-- README.md      # This file
-
-## 🔍 File Highlights
+## File Highlights
 
 - `KeyGen/Keygen.java`: Generates RSA key pairs.
 - `Sender/Sender.java`: Encrypts files using AES-128, signs them using RSA.
@@ -27,19 +19,19 @@ This project is a **from-scratch Java implementation** of core cryptographic pri
 - `RSA_Custom.java`: RSA implementation for both encryption and digital signatures.
 - `SHA256_Sum.java`: 256-bit hash generator.
 
-## ⚠ Performance Note
+## Performance Note
 
 AES encryption is **educational** rather than optimized—it is intentionally slow to help with algorithm comprehension. This suite prioritizes transparency over speed.
 
-## 🛠️ Requirements
+## Requirements
 
 - Java 8+
 - Terminal or shell (for scripts)
 
-## 📚 Educational Value
+## Educational Value
 
 Perfect for students or engineers seeking a deeper understanding of cryptographic fundamentals and how they interact in secure systems.
 
-## 📎 License
+## License
 
 MIT License
